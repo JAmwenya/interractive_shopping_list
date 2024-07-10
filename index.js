@@ -11,12 +11,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const savedList = localStorage.getItem('list');
         if (savedList) {
             list.innerHTML = savedList;
+            //toggle the list being marked and unmarked as done using purchased class 
             const items = list.getElementsByTagName('li');
             for (let i = 0; i < items.length; i++) {
                 items[i].addEventListener('click', () => {
                     items[i].classList.toggle('purchased');
+                    //update the local storage by saving
                     save();
                 });
+                //enable direct editing of list items within browser and save the input
                 items[i].setAttribute('contenteditable', 'true');
                 items[i].addEventListener('input', save);
             }
