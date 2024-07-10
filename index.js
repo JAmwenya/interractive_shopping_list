@@ -1,4 +1,4 @@
-//event listener to ensure html is loaded first before the javascrip script
+//ensure html is loaded first before the javascrip script
 document.addEventListener('DOMContentLoaded', () => {
     const item = document.getElementById('item');
     const add = document.getElementById('add');
@@ -71,6 +71,5 @@ document.addEventListener('DOMContentLoaded', () => {
         save();
     });
 
-    // Load the list on page load
     load();
 });
