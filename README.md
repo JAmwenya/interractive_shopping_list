@@ -1,6 +1,5 @@
-<strong interractive_shopping_list>
-* Objective
-- Develop a webpage with a shopping list. Users can add items to the list, mark items as purchased, and clear the list.
+INTERRACTIVE SHOPPING LIST.
+* Objective: Develop a webpage with a shopping list. Users can add items to the list, mark items as purchased, and clear the list.
 
 * index.html - a file that contains a page with a simple shopping list.
 
