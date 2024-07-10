@@ -1,6 +1,6 @@
 * index.html - a file that contains a page with a simple shopping list.
 
-    - <input type="text"> - a data field that takes in text user intput.
+    - input type text - a data field that takes in text user intput.
 
     - list id - represents an unordered list.
 
