@@ -1,3 +1,7 @@
+interractive_shopping_list
+objective
+Develop a webpage with a shopping list. Users can add items to the list, mark items as purchased, and clear the list.
+
 * index.html - a file that contains a page with a simple shopping list.
 
     - input type text - a data field that takes in text user intput.
