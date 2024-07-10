@@ -1,3 +1,4 @@
+//event listener to ensure html is loaded first before the javascrip script
 document.addEventListener('DOMContentLoaded', () => {
     const item = document.getElementById('item');
     const add = document.getElementById('add');
